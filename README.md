@@ -10,6 +10,7 @@ Table of contents
 - [The solution](#the-solution)
   - [Use Cases](#use-cases)
   - [Architecture](#architecture)
+  - [Source Code](#source-code)
   - [License](#license)
 <!--te-->
 
@@ -70,7 +71,13 @@ Below picture shows all the technical components involved in Safety @ Work scena
 
 * **[HANA Multi-Target Application](https://www.cloudfoundry.org/blog/accelerating-deployment-distributed-cloud-applications/)** - single package containing all business logic necessary to store/expose data - levaraging HANA native artifacts - and backoffice web apps, built using [SAPUI5 Framework](https://sapui5.hana.ondemand.com/).
 
+## Source Code
+Source code of this asset can be found in following two repos:
 
+* **[Safety@Work iOS app](https://github.com/SAP-samples/safety-at-work-ios)** - this repo contains source code of iOS application and all the detailed infos needed to start running the app;
+
+* **[Safety@Work SCP Multi-Target App](https://github.com/SAP-samples/safety-at-work-mta)** - this repo contains source code of SCP back-end HANA & Business logic app and all the necessary steps to build, deploy and run the solution in a CloudFoundry environment.
+  
 ## License
 License
 Copyright (c) 2020 SAP SE or an SAP affiliate company. All rights reserved. This file is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSE) file.
